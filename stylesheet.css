@@ -1,0 +1,114 @@
+a:link {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+#signin {
+	border: 1px solid #4285f4;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	background-color: #4387fd;
+	border-radius: 2px;
+}
+
+#signin li {
+	color: white;
+	font-weight: bold;
+}
+
+.rightmenu {
+	display: block;
+	float: right;
+}
+
+
+img {
+	display: inline-block;
+	width: 272px;
+	height: 92px;
+	margin: 0 auto;
+	float: center;
+}
+
+#rightmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+div li {
+	min-width: 136px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#mid {
+	padding-top:175px;
+}
+
+input#search {
+	position: relative;
+	width: 484px;
+	min-width: 300px;
+	margin-top: 25px;
+	height: 38px;
+	border: 1px solid #d9d9d9;
+}
+
+#searchbuttons {
+	padding-top: 30px;
+	width: 484px;
+}
+
+.button {
+	height: 38px;
+	width: 150px;
+	border: none;
+	background-color: #f2f2f2;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	border-radius: 2px;
+}
+
+.button:hover {
+	border: 1px solid #f2f2f2;
+	color: black;
+	box-shadow: .5px .5px .5px .5px #757575;
+}
+
+a.buttonlink:hover{
+	text-decoration: none;
+}
+
+.bottommenu {
+	height: 45px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	background-color: #f2f2f2;
+}
+
+.bottommenu ul a{
+	margin-right: 20px;
+	color: gray;
+}
